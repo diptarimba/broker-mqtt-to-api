@@ -1,3 +1,4 @@
+require('dotenv').config();
 const mqtt = require('mqtt')
 const axios = require('axios').default;
 const client = mqtt.connect(process.env.URL_MQTT_SERVER)
